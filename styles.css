@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: rgb(241, 241, 239);
+}
+
+.label{
+    color: white;
+    margin-left: 20px;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+}
+
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: black;
+    box-shadow: 5px, 5px, 5px;
+    padding: 5px;
+}
+
+.judul{
+    text-align: center;
+}
+
+.judul .judultulisan{
+    font-family: "Antic", sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 400%;
+    
+}
+
+.fotointro{
+    position: static;
+    width: 250px;
+    float: left;
+    margin-left: 200px;
+}
+
+.judul-intro{
+    position: static;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+.introduction .judul-intro{
+    position: static;
+    width: 200px;
+    margin-left: 500px;
+    padding-left: 10px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+}
+
+.isi-intro{
+    width: 500px;
+    height: 350px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 500px;
+}
+
+.align-left{
+    float: left;
+}   
+
+.educational-background .judul-e-b {
+    width: 400px;
+    margin-left: 200px;
+    padding-left: 10px;
+    background-color: #e8e1da;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.educational-background  .foto-sma{
+    position: static;
+    float: right;
+    margin-right: 150px;
+    width: 400px;
+}
+
+.educational-background .isi-e-b{
+    width: 425px;
+    height: 350px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+.hobbies{
+    margin-top: 50px;
+}
+
+.hobbies .suling{
+    position: static;
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+}
+
+.hobbies .judul-hobbies{
+    position: static;
+    width: 170px;
+    margin-left: 650px;
+    padding-left: 10px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+}
+
+.judul-hobbies{
+    position: static;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.hobbies .isi-hobbies{
+    width: 425px;
+    height: 350px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 650px;
+}
+
+.activities .judul-activities{
+    text-align: center;
+    width: 170px;
+    padding-left: 5px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+    margin: auto;
+}
+
+.activities .isi-activities{
+    width: 900px;
+    height: 350px;
+    line-height: 30px;
+    text-align: justify;
+    margin: auto;
+}
+
+.gambar-activities .activities1{
+    float: left;
+    width: 425px;
+    margin-left: 180px;
+    margin-right: 50px;
+}
+
+.gambar-activities .activities2{
+    width: 425px;
+}
+
+.footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .icon {
+    width: 30px; /* Ukuran logo sosial media */
+    height: 30px;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    margin: 0;
+  }
