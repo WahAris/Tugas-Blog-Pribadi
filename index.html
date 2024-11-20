@@ -20,11 +20,34 @@
 
     <body>
 
-        <div class="header">
-            <h1 class="label">
+        <nav>
+            <h1 class="labelheader">
                 Wah Aris
             </h1>
-        </div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="buku.html">Buku</a>
+                </li>
+                <li>
+                    <a href="game.html">Game</a>
+                </li>
+                <li>
+                    <a href="olahraga.html">Olahraga</a>
+                </li>
+                <li>
+                    <a href="musiktradisional.html">Musik Tradisional</a>
+                </li>
+                <li>
+                    <a href="tanaman.html">Tanaman</a>
+                </li>
+                <li>
+                    <a href="form.html">Form</a>
+                </li>
+            </ul>
+        </nav>
 
         <div class="judul">
             <p class="judultulisan">
@@ -98,7 +121,7 @@
                 <p class="aktivitas">Activities</p>
             </div>
 
-            <div class="isi-activities">
+            <div class="isi-tengah">
                 <br>
                 <p>
                     Saya telah melakukan berbagai aktivitas mulai dari aktivitas akademik maupun non akademik. Sewaktu SMA saya
@@ -119,7 +142,7 @@
         </div>
 
         <div class="activities">
-            <div class="isi-activities">
+            <div class="isi-tengah">
                 <br>
                 <p>
                     Pada saat Kuliah, saya juga aktif melakukan kegiatan non akademik seperti kegiatan kepanitiaan dan kegiatan
@@ -140,7 +163,7 @@
         </div>
 
         <div class="activities">
-            <div class="isi-activities">
+            <div class="isi-tengah">
                 <br>
                 <br>
                 <p>
@@ -157,6 +180,34 @@
             <img src="pictures/activities5.JPG" alt="activities5" class="activities1">
             <img src="pictures/activities6.JPG" alt="activities6"  class="activities2">
         </div>
+
+        <div class="slider">
+            <div class= "slides">
+                <img src="pictures/activities1.jpeg" class="slide" alt="Image 1">
+                <img src="pictures/activities2.JPG" class="slide" alt="Image 2">
+                <img src="pictures/activities3.JPG" class="slide" alt="Image 3">
+                <img src="pictures/activities4.JPG" class="slide" alt="Image 4">
+                <img src="pictures/activities5.JPG" class="slide" alt="Image 5">
+                <img src="pictures/activities6.JPG" class="slide" alt="Image 6">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="halamanform">
+            <p class="kenalanyuk">
+                Kenalan Yuk!
+            </p>
+            <p class="isiformini">
+                Isi Form Ini
+            </p>
+            <div class="formbutton">
+                <a href="form.html">
+                    <button class ="button1">Klik disini</button>
+                </a>
+            </div>
+        </div>
+
 
         <div class="judul">
             <p class="judultulisan">
@@ -177,9 +228,9 @@
               </div>
               <p class="footer-text">Wah Aris's Blog</p>
             </div>
-          </footer>
+        </footer>
 
-    
+          <script src="script.js"></script>
     </body>
 
 </html>

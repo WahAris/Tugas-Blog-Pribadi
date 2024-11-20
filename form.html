@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <!--Judul-->
+    <title>Wah Aris's Form</title>
+
+    <!-- Link font Lato -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Link font Artic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic&family=Antic+Didone&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1 class="labelheader">
+            Wah Aris
+        </h1>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="buku.html">Buku</a>
+            </li>
+            <li>
+                <a href="game.html">Game</a>
+            </li>
+            <li>
+                <a href="olahraga.html">Olahraga</a>
+            </li>
+            <li>
+                <a href="musiktradisional.html">Musik Tradisional</a>
+            </li>
+            <li>
+                <a href="tanaman.html">Tanaman</a>
+            </li>
+            <li>
+                <a href="form.html">Form</a>
+            </li>
+        </ul>
+    </nav>
+
+    <p class="judulkenalan">
+        Kenalan Yuk! <br>
+        Isi form dengan jujur ya
+    </p>
+
+    <div class="form">
+        <div class="centerform">
+            <form name="formUser">
+                <p>Nama</p>
+                <input type="text" id="namaUser" placeholder="Nama Lengkap...">
+
+                <p>Umur</p>
+                <input type="number" placeholder="Dalam tahun...">
+
+                <p>Tanggal Lahir</p>
+                <input type="date">
+
+                <p>Provinsi</p>
+                <select name="provinsi" id="province">
+                    <option value="Aceh">Aceh</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Bangka Belitung">Bangka Belitung</option>
+                    <option value="Banten">Banten</option>
+                    <option value="Bengkulu">Bengkulu</option>
+                    <option value="Daerah Istimewa Yogyakarta">Daerah Istimewa Yogyakarta</option>
+                    <option value="Gorontalo">Gorontalo</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Jambi">Jambi</option>
+                    <option value="Jawa Barat">Jawa Barat</option>
+                    <option value="Jawa Tengah">Jawa Tengah</option>
+                    <option value="Jawa Timur">Jawa Timur</option>
+                    <option value="Kalimantan Barat">Kalimantan Barat</option>
+                    <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+                    <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                    <option value="Kalimantan Utara">Kalimantan Utara</option>
+                    <option value="Kepulauan Riau">Kepulauan Riau</option>
+                    <option value="Lampung">Lampung</option>
+                    <option value="Maluku Utara">Maluku Utara</option>
+                    <option value="Maluku">Maluku</option>
+                    <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                    <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                    <option value="Papua Barat Daya">Papua Barat Daya</option>
+                    <option value="Papua">Papua</option>
+                    <option value="Riau">Riau</option>
+                    <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                    <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                    <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                    <option value="Sulawesi Utara">Sulawesi Tenggara</option>
+                    <option value="Sumatera Barat">Sumatera Barat</option>
+                    <option value="Sumatera Selatan">Sumatera Selatan</option>
+                    <option value="Sumatera Utara">Sumatera Utara</option>
+                </select>
+
+                <p>Kabupaten</p>
+                <input type="text" placeholder="Kabupaten...">
+
+                <p>Alamat</p>
+                <input type="text" placeholder="Alamat...">
+
+                <p>Email</p>
+                <input type="email" placeholder="email...">
+
+                <p>Jenis Kelamin</p>
+                <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki
+                <input type="radio" name="gender" value="Perempuan" class="perempuan"> Perempuan
+                
+                <p>Pekerjaan</p>
+                <select name="pekerjaan" id="pekerjaan">
+                    <option value="Wirausaha">Wirausaha</option>
+                    <option value="Pegawai Negeri">Pegawai Negeri</option>
+                    <option value="Pegawai Swasta">Pegawai Swasta</option>
+                    <option value="Pelajar">Pelajar</option>
+                    <option value="Mahasiswa">Mahasiswa</option>
+                    <option value="Investor">Investor</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+
+                <p>Hobi</p>
+                <input type="checkbox" id="Membaca" name="hobi" value="Membaca">
+                <label for="Membaca"> Membaca</label><br>
+                <input type="checkbox" id="Memancing" name="hobi" value="Memancing">
+                <label for="Memancing"> Memancing</label><br>
+                <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+                <label for="Olahraga"> Olahraga</label><br>
+                <input type="checkbox" id="Memasak" name="hobi" value="Memasak">
+                <label for="Memasak"> Memasak</label><br>
+                <input type="checkbox" id="Bermain game" name="hobi" value="Bermain game">
+                <label for="Bermain game"> Bermain game</label><br>
+                <p>lainnya:</p>
+                <input type="text" placeholder="Tulis hobi lainnya...">
+
+                <p>Ceritakan tentang dirimu</p>
+                <textarea name="cerita" id="cerita" placeholder="Ceritakan apapun tentang dirimu..."></textarea>
+
+                <input type="submit" value="Submit" onclick="tampilkanAlert()">
+                <input type="reset" value="Reset">
+                <a href="index.html" class="buttonback">Kembali</a>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="social-icons">
+            <a href="https://www.instagram.com/waharis24/" target="_blank">
+              <img src="pictures/logo-ig.png" alt="Instagram" class="icon">
+            </a>
+            <a href="https://web.facebook.com/wah.aris.9" target="_blank">
+              <img src="pictures/logo-fb.png" alt="Facebook" class="icon">
+            </a>
+          </div>
+          <p class="footer-text">Wah Aris's Blog</p>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>

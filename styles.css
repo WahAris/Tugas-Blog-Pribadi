@@ -14,24 +14,59 @@ body{
     background-color: rgb(241, 241, 239);
 }
 
-.label{
-    color: white;
+.labelheader{
+    color: black;
     margin-left: 20px;
+}
+
+h2{
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
 }
 
 p{
     font-family: "Lato", sans-serif;
 }
 
+nav{
+  background-color: #D2B48C;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+nav ul li a:hover{
+  border-bottom: 1px solid white;
+  color: white;
+}
 
 .header{
     position: sticky;
     top: 0;
     left: 0;
     margin: 0;
-    background-color: black;
+    background-color: #D2B48C;
     box-shadow: 5px, 5px, 5px;
-    padding: 5px;
+    padding: 13px;
 }
 
 .judul{
@@ -51,6 +86,11 @@ p{
     width: 250px;
     float: left;
     margin-left: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fotointro:hover{
+  transform: scale(1.15);
 }
 
 .judul-intro{
@@ -96,6 +136,11 @@ p{
     float: right;
     margin-right: 150px;
     width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.educational-background  .foto-sma:hover{
+  transform: scale(1.15);
 }
 
 .educational-background .isi-e-b{
@@ -115,6 +160,11 @@ p{
     width: 400px;
     float: left;
     margin-left: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hobbies .suling:hover{
+    transform: scale(1.15);
 }
 
 .hobbies .judul-hobbies{
@@ -150,7 +200,7 @@ p{
     margin: auto;
 }
 
-.activities .isi-activities{
+.activities .isi-tengah{
     width: 900px;
     height: 350px;
     line-height: 30px;
@@ -163,17 +213,129 @@ p{
     width: 425px;
     margin-left: 180px;
     margin-right: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities1:hover{
+    transform: scale(1.15);
 }
 
 .gambar-activities .activities2{
     width: 425px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities2:hover{
+    transform: scale(1.15);
+}
+
+.gambar-activities .activities3{
+  transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities3:hover{
+  transform: scale(1.15);
+}
+
+.gambar-activities .activities4{
+  transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities4:hover{
+  transform: scale(1.15);
+}
+.gambar-activities .activities5{
+  transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities5:hover{
+  transform: scale(1.15);
+}
+
+.gambar-activities .activities6{
+  transition: transform 0.3s ease-in-out;
+}
+
+.gambar-activities .activities6:hover{
+  transform: scale(1.15);
+}
+
+.slider {
+  position: relative;
+  max-width: 600px; /* Sesuaikan lebar slider */
+  margin: auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.slide {
+  width: 100%;
+  display: none; /* Sembunyikan gambar kecuali yang aktif */
+}
+
+/* Tombol navigasi */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Tampilan gambar pertama */
+.slide:first-child {
+  display: block;
+}
+
+.halamanform{
+    font-family: "Antic", sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.halamanform .kenalanyuk{
+    font-size: 300%;
+}
+
+.halamanform .isiformini{
+    font-size: 200%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.halamanform .formbutton .button1{
+    border: none;
+    padding: 16px 32px;
+    background-color: #e8e1da;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.halamanform .formbutton .button1:hover{
+    background-color: #dbbc9a;
 }
 
 .footer {
-    background-color: #000; 
-    color: #fff; 
+    background-color:#D2B48C;; 
+    color: black; 
     padding: 20px 0;
-    text-align: center;
+    text-align: center;   
   }
   
   .container {
@@ -198,4 +360,196 @@ p{
   .footer-text {
     font-size: 16px;
     margin: 0;
+  }
+
+  .judulkenalan{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 125px;
+    margin-bottom: 100px;
+  }
+
+  .form{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .form .centerform{
+    border-radius: 10px;
+    width: 50%;
+    background-color: #e8e1da;
+    padding: 50px;
+  }
+
+  input[type="text"], input[type="number"], input[type="date"], input[type="email"], select{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+  }
+
+  input[type="radio"]{
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .form .centerform .perempuan{
+    margin-left: 20px;
+  }
+
+  input[type="checkbox"]{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"],  input[type="reset"],  .form .centerform .buttonback{
+    border: none;
+    padding: 16px 32px;
+    background-color: #dbbc9a;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,  input[type="reset"]:hover,  .form .centerform .buttonback:hover{
+    background-color: rgb(241, 241, 239);
+  }
+
+  .form a{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*tanaman*/
+
+  .wadahscroll{
+    background-color:#dbbc9a;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .wadahscroll img{
+    height: 300px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .paragraf-tengah{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .judul-post{
+    text-align: center;
+    width: 170px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+    margin: auto;
+  }
+  .judul-post1{
+    text-align: center;
+    width: 400px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+    margin: auto;
+  }
+
+  .judul-post2{
+    text-align: center;
+    width: 1000px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    background-color: #e8e1da;
+    font-size: xx-large;
+    margin: auto;
+  }
+
+  .gambar-post{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gambar-post .gambar-buku{
+    width: 200px
+  }
+
+  .gambar-post .gambar-buku img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gambar-post .gambar-buku img:hover{
+    transform: scale(1.15);
+  }
+  
+  .gambar-post .gambar-game{
+    width: 400px
+  }
+
+  .gambar-post .gambar-game img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gambar-post .gambar-game img:hover{
+    transform: scale(1.15);
+  }
+
+  .gambar-post .gambar-olahraga{
+    width: 500px
+  }
+
+  .gambar-post .gambar-olahraga img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gambar-post .gambar-olahraga img:hover{
+    transform: scale(1.15);
+  }
+
+  .gambar-post .gambar-musiktradisional{
+    width: 450px
+  }
+
+  .gambar-post .gambar-musiktradisional img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gambar-post .gambar-musiktradisional img:hover{
+    transform: scale(1.15);
   }
